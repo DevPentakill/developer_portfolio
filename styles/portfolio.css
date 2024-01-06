@@ -76,6 +76,7 @@ nav a {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 0px;
 
 }
 
@@ -132,6 +133,12 @@ main {
     margin: 0px auto;
 }
 
+main .new_sec{
+/* background-color: chartreuse; */
+margin-top: 130px;
+margin-bottom: 0px;
+}
+
 /* ABout me section styles*/
 
 .about {
@@ -177,12 +184,12 @@ main {
 .skills-container {
     display: flex;
     justify-content: space-evenly;
+    /* gap: 24px; Jhankar vai's method to create space between skills */
 }
 
 .skill {
-    /* width: 267px;
-height: 377px; */
-    margin-right: 24px;
+
+    margin-right: 24px; /*to create gap between each skill*/
     padding: 30px 33px;
     border-radius: 5px;
     background: #FFF;
@@ -198,6 +205,33 @@ height: 377px; */
 
 .skill-info {
     color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+/* resume section related styles are written on-wards */
+.resume-container{
+    display:flex;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.resume-content-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-content-org{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-content-descrip{
+    color:  #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
