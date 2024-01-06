@@ -167,3 +167,39 @@ main {
     line-height: 30px;
     margin-top: 0px;
 }
+
+/* what_I_d0 section styles */
+#what-i-do-descrip {
+    /* background-color:darkcyan; */
+    padding: 0px 116px 50px 115px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill {
+    /* width: 267px;
+height: 377px; */
+    margin-right: 24px;
+    padding: 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-info {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
