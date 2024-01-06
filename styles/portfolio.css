@@ -133,10 +133,10 @@ main {
     margin: 0px auto;
 }
 
-main .new_sec{
-/* background-color: chartreuse; */
-margin-top: 130px;
-margin-bottom: 0px;
+main .new_sec {
+    /* background-color: chartreuse; */
+    margin-top: 130px;
+    margin-bottom: 0px;
 }
 
 /* ABout me section styles*/
@@ -189,7 +189,8 @@ margin-bottom: 0px;
 
 .skill {
 
-    margin-right: 24px; /*to create gap between each skill*/
+    margin-right: 24px;
+    /*to create gap between each skill*/
     padding: 30px 33px;
     border-radius: 5px;
     background: #FFF;
@@ -210,49 +211,82 @@ margin-bottom: 0px;
     line-height: 28px;
 
 }
+
 /* resume section related styles are written on-wards */
-.resume-container{
-    display:flex;
+.resume-container {
+    display: flex;
     gap: 70px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 0px;
 }
-.resume-column-title{
+
+.resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom:30px;
-   
+    margin-bottom: 30px;
+
 }
-.resume-content-title{
+
+.resume-content-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-content-org{
-    color:  #757575;
+
+.resume-content-org {
+    color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.resume-content-descrip{
-    color:  #757575;
+
+.resume-content-descrip {
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
 }
+
 /* footer related style starts here */
-footer{
-    display:flex;
+footer {
+    display: flex;
+    gap: 117px;
     padding: 130px 230px;
     background-color: #FFF8F3;
     margin-top: 113px;
+}
+.footer-column{
+    width:50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width:100%;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #FFF;
 }
