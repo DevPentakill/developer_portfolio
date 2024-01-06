@@ -56,12 +56,17 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
 }
 
 .banner {
     display: flex;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .btn-contact {
@@ -78,4 +83,25 @@ nav a {
     width: 550px;
     height: 600px;
 
+}
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .banner-content .banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+   
+}
+.banner .banner-content .banner-title {
+    color:  #181818;
+    font-size: 85px;
+    font-weight: 700; 
+    margin-top: 5px;
+    margin-bottom:20px;
+   
+}
+.banner-descrip{
+    margin-top: 0px; 
 }
