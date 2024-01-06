@@ -249,3 +249,10 @@ margin-bottom: 0px;
     text-align: center;
     margin-top:30px;
 }
+/* footer related style starts here */
+footer{
+    display:flex;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
